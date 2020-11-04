@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d9ff8742ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="burger-icon">
+        <i class="fas fa-bars"></i>
+    </div>
+    <nav>
+        <div class="nav-items">
+            <ul>
+            <li><a href="#home" class="nav-item">home</a></li>
+            <li><a href="#about" class="nav-item">about</a></li>
+            <li><a href="#projects" class="nav-item">projects</a></li>
+            <li><a href="#contact" class="nav-item">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="hero-img">
+        <div class="header-text">
+        <h1 class="header-text-name">Hello, my name is Mikołaj.</h1>
+        <a href="#about" class="header-btn-read"> Read more </a> 
+    </div>
+</div>
+    </header>
+    <main>
+        <section id="about" class="about scroll-fix section">
+            
+            <div class="about-text">
+               <div class="about-text-header header-space">
+                   <h1>About me</h1>
+                   <div class="underline"></div>
+                </div>
+                <div class="about-text-description header-space">
+                        <p> 
+                            Hello, my name is Mikołaj Marszałek.
+                            I'm 20 years old. I don't affraid about new challenges.
+                            I'm currently learning the React.
+                            I improve my front-end skills and still learn new things.
+                            I would like to work with more experienced people to learn from them and develop my skills.
+                            I also like watching TV series, playing games, do any sport.
+                            Sometimes I read books.
+                            I can work in the office in Katowice, close area or remotely.
+                            My cv: <a href="" target="_blank" class="links"><i class="fas fa-paste"></i></a>
+                        </p>
+                </div>
+            </div>
+
+            <div class="about-text">
+               <div class="about-text-header header-space">
+                   <h1>My skills</h1>
+                   <div class="underline"></div>
+                </div>
+                <div class="about-text-description header-space">
+                        <div class="item"> <p> HTML </p> </div>
+                        <div class="item"> <p> CSS </p> </div>
+                        <div class="item"> <p> SASS </p> </div>
+                        <div class="item"> <p> SCSS </p> </div>
+                        <div class="item"> <p> JavaScript (ES6+) </p> </div>
+                        <div class="item"> <p> GASP </p> </div>
+                        <div class="item"> <p> GIT </p> </div>
+                        <div class="item"> <p> GitHub </p> </div>
+                        <div class="item"> <p> API </p> </div>
+                        <div class="item"> <p> RWD </p> </div>
+                        
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects scroll-fix section">
+
+            <div class="items">
+                <div class="item">
+                    <h2>Paper Rock and Scissors</h2>
+                    <div class="item-img"><img src="/img/bgcheader.jpg" alt="dgbhsdfgbrw"></div>
+                    <div class="item-text"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Architecto nulla repellendus pariatur, modi illum tempora.</p></div>
+                    <div class="item-links">
+                    <a href="#" class="links"><i class="fas fa-globe-americas"></i></a>   
+                    <a href="#" class="links"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>                
+                <div class="item">
+                    <h2>Paper Rock and Scissors</h2>
+                    <div class="item-img"><img src="/img/bgcheader.jpg" alt="dgbhsdfgbrw"></div>
+                    <div class="item-text"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Architecto nulla repellendus pariatur, modi illum tempora.</p></div>
+                    <div class="item-links">
+                    <a href="#" class="links"><i class="fas fa-globe-americas"></i></a>   
+                    <a href="#" class="links"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>                
+                <div class="item">
+                    <h2>Paper Rock and Scissors</h2>
+                    <div class="item-img"><img src="/img/bgcheader.jpg" alt="dgbhsdfgbrw"></div>
+                    <div class="item-text"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Architecto nulla repellendus pariatur, modi illum tempora.</p></div>
+                    <div class="item-links">
+                    <a href="#" class="links"><i class="fas fa-globe-americas"></i></a>   
+                    <a href="#" class="links"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <section id="contact" class="contact scroll-fix section">
+            <div class="wrapper">
+                <div class="contact-header">
+                    <h1>Contact</h1>
+                    <div class="underline"></div>
+                </div>
+                   <form action="https://formspree.io/f/mrgokywg" method="POST" class="contact-form" id="my-form">
+                        
+                       <label for="name">Your name:</label>
+                       <input type="text" id="name" class="contact-name" name="name">
+
+                       <label for="mail">Your e-mail</label>
+                       <input type="email" id="mail" class="contact-mail" name="email">
+
+                       <label for="msg">Message:</label>
+                       <textarea id="msg" class="contact-msg" name="message"></textarea>
+                       <h2 class="status" id="status"></h2>
+                        <div class="contact-btn">
+                            <button type="submit" class="btn-send">Send</button>
+                        </div>
+                   </form>
+                    <h2>You can also contact me by:</h2>
+                    <h3>My e-mail: mikimarsz215@gmail.com</h3>
+                    <a href="https://www.facebook.com/mikimarsz/" target="_blank"><i class="fab fa-facebook-square class" ></i></a>
+                    <a href="https://github.com/Mikus215" target="_blank"><i class="fab fa-github-square class"></i></a>
+                    <a href="" target="_blank"><i class="fas fa-paste"></i></a>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; <span class="footer-year"> </span> Mikołaj Marszałek</p>
+
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="js/send.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
