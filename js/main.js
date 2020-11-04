@@ -56,6 +56,3 @@ ltStartPage.fromTo('.header-btn-read',.5,{y:200,opacity:0},{y:0,opacity:1},'main
 ltStartPage.staggerFromTo('.nav-items li',1,{y:-100},{y:0},.2)
 
 
-// let ltReactIcon=new TimelineMax({repeat: -1})
-// ltReactIcon.to('.left-react',8,{rotation: 360,ease: Linear.easeNone},'rotation')
-// ltReactIcon.to('.right-react',8,{rotation: -360,ease: Linear.easeNone},'rotation')
