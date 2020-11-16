@@ -172,7 +172,7 @@ main .about .about-text .about-text-description {
 
 main .about .about-text .about-text-description i {
   font-size: 40px;
-  color: black;
+  color: #0679c1;
   padding: 5px;
 }
 
@@ -296,7 +296,7 @@ main .contact .wrapper {
 main .contact .wrapper i {
   font-size: 50px;
   padding: 10px;
-  color: black;
+  color: #0679c1;
   padding: 5px;
 }
 
